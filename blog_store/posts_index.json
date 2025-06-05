@@ -1,5 +1,13 @@
 [
     {
+        "id":"essay01",
+        "section": "散文",
+        "date":"June 5, 2025",
+        "title":"从技术探索到生活感悟：我的本周思考集锦",
+        "description":"最近在折腾新的开发工具时，突然发现技术与生活竟有奇妙的共通点 —— 就像 Markdown 语法的简洁与 HTML 的灵活搭配，生活也需要在规律中保留即兴发挥的空间。今天想和大家聊聊这段时间的技术小发现，以及那些藏在代码缝隙里的生活启示。这不仅仅是关于工具的使用，更是关于一种思维方式的碰撞与融合。",
+        "url":"blog_store/posts/sanwen/chapter01.md"
+    },
+    {
         "id": "setup-yor-own-blog",
         "section": "guide",
         "date": "February 11, 2020",
