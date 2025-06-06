@@ -5118,10 +5118,10 @@ var Ad = Object.freeze(Object.defineProperty({
     value: "Module"
 }));
 const ut = {
-        siteName: "vue3-md-blog",
-        title: "Minimal Vue3 + Markdown blog engine",
-        description: "Simply fork and deploy!",
-        previewUrl: "https://github.com/yeikiu/vue3-md-blog/blob/master/src/assets/logo.png?raw=true",
+        siteName: "徐壹的博客",
+        title: "",
+        description: "Jerry01011",
+        previewUrl: "",
         shareUrl: "https://yeikiu.github.io/vue3-md-blog/#/"
     },
     Td = Ct({
