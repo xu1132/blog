@@ -1,5 +1,13 @@
 [
     {
+        "id":"chapter04",
+        "section": "散文",
+        "date":"June 6, 2025",
+        "title":"ES6：重塑现代JavaScript的革命性升级",
+        "description":"ES6的发布标志着JavaScript从一个简单的脚本语言，转变为一个功能强大的现代编程语言。它引入了诸如模块化、箭头函数、解构赋值、模板字符串、Promise等重要特性，大大提升了开发效率和代码质量。这些新特性不仅简化了代码的编写，还使得JavaScript更加接近其他现代编程语言，如Python、Java等，使得跨语言开发更加流畅。",
+        "url":"blog_store/posts/sanwen/chapter04.md"
+    },
+    {
         "id":"chapter03",
         "section": "散文",
         "date":"June 6, 2025",
