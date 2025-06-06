@@ -526,10 +526,10 @@ purgecss --css styles.css --html index.html
 在进行前端性能优化时，我们需要关注以下关键指标：FP（首次绘制）、FCP（首次内容绘制）、LCP（最大内容绘制）、FID（首次输入延迟）和TTI（可交互时间）。同时，我们还需要关注Google提出的三大核心指标：LCP（加载速度指标）、FID（交互指标）和CLS（渲染稳定性指标）。
 通过持续监控和分析性能数据，根据实际需求调整优化策略，我们才能保持良好的性能表现，最终提升用户满意度和网站的业务目标。
 ## 参考资料
-[1] 读懂前端「性能优化」 - 七猫技术团队. https://tech.qimao.com/yi-wen-du-dong-qian-duan-xing-neng-you-hua/. 
-[2] 探索前端性能优化：关键策略与代码实例-阿里云开发者社区. https://developer.aliyun.com/article/1643202. 
-[3] 前端优化之减少HTTP请求原创 - CSDN博客. https://blog.csdn.net/weixin_45369499/article/details/102952337. 
-[4] JavaScript性能优化怎么实现？12种优化方式你知道嘛 - 腾讯云. https://cloud.tencent.com/developer/article/2314011. 
-[5] CSS性能优化的8个技巧 - 稀土掘金. https://juejin.cn/post/6844903649605320711. 
-[6] 前端懒加载技术 - 稀土掘金. https://juejin.cn/post/7257882531353608253. 
-[7] 彻底搞懂前端浏览器缓存 - 稀土掘金. https://juejin.cn/post/6921390645516959758. 
+1.  读懂前端「性能优化」 - 七猫技术团队. [https://tech.qimao.com/yi-wen-du-dong-qian-duan-xing-neng-you-hua/](https://tech.qimao.com/yi-wen-du-dong-qian-duan-xing-neng-you-hua/)
+2.  探索前端性能优化：关键策略与代码实例-阿里云开发者社区. [https://developer.aliyun.com/article/1643202](https://developer.aliyun.com/article/1643202)
+3.  前端优化之减少HTTP请求原创 - CSDN博客. [https://blog.csdn.net/weixin_45369499/article/details/102952337](https://blog.csdn.net/weixin_45369499/article/details/102952337)
+4.  JavaScript性能优化怎么实现？12种优化方式你知道嘛 - 腾讯云. [https://cloud.tencent.com/developer/article/2314011](https://cloud.tencent.com/developer/article/2314011)
+5.  CSS性能优化的8个技巧 - 稀土掘金. [https://juejin.cn/post/6844903649605320711](https://juejin.cn/post/6844903649605320711)
+6.  前端懒加载技术 - 稀土掘金. [https://juejin.cn/post/7257882531353608253](https://juejin.cn/post/7257882531353608253)
+7.  彻底搞懂前端浏览器缓存 - 稀土掘金. [https://juejin.cn/post/6921390645516959758](https://juejin.cn/post/6921390645516959758)

@@ -85,6 +85,7 @@ CSS Grid和Flexbox是现代CSS布局的重要工具，它们提供了强大的�
 随着技术的发展，浏览器渲染也在不断演进。硬件加速、GPU渲染、CSS Grid、Flexbox等新技术，为网页设计提供了更多可能性，也对浏览器渲染提出了更高要求。浏览器通过优化算法、并行计算、预测渲染等技术，不断提高渲染性能，满足日益复杂的网页需求。
 未来，随着计算能力的提升和算法的演进，浏览器渲染将更加高效和智能，为用户提供更流畅、更丰富的网页体验。作为开发者，我们需要不断学习和掌握新的渲染技术和优化策略，以充分利用这些技术，创造更出色的网页体验。
 ## 参考文献
-[1] MDN Web Docs: https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work
-[2] 稀土掘金: https://juejin.cn/post/7018358245785862151
-[3] CSDN博客: https://blog.csdn.net/dKnightL/article/details/121849151 
+1. MDN Web Docs: [https://developer.mozilla.org/zh-CN/docs/Web/Performance/How\_browsers\_work](https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work)
+2. 稀土掘金: [https://juejin.cn/post/7018358245785862151](https://juejin.cn/post/7018358245785862151)
+3. CSDN博客: [https://blog.csdn.net/dKnightL/article/details/121849151](https://blog.csdn.net/dKnightL/article/details/121849151)
+
