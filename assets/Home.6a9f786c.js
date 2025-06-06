@@ -152,7 +152,7 @@ const at = B({
       
       return _(), u(C, null, [
         // 页面标题组件
-        x(O, { title: o.section ? o.section : "欢迎浏览" }, null, 8, ["title"]),
+        x(O, { title: o.section ? o.section : "主页" }, null, 8, ["title"]),
         
         // 博客主容器，应用配置的背景和文字颜色
         i("div", { style: j(`background-color: ${a(g)}; color: ${a(c)};`) }, [

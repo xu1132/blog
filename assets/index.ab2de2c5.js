@@ -5120,7 +5120,7 @@ var Ad = Object.freeze(Object.defineProperty({
 const ut = {
         siteName: "徐壹的博客",
         title: "",
-        description: "Jerry01011",
+        description: "",
         previewUrl: "",
         shareUrl: "https://yeikiu.github.io/vue3-md-blog/#/"
     },
@@ -5160,7 +5160,8 @@ const ut = {
                     shareUrl: l = ut.shareUrl
                 }) => {
                     const [i] = document.getElementsByTagName("title");
-                    i.textContent = `${c} | ${o} - ${n}`, Array.from(document.getElementsByClassName("APP_META")).forEach(f => {
+                    // 远在天边，近在眼前，i.textContent = `${c} | ${o} - ${n}`这个-原来在这里。
+                    i.textContent = `${c} | ${o}  ${n}`, Array.from(document.getElementsByClassName("APP_META")).forEach(f => {
                         f.remove()
                     });
                     const u = `<meta class="APP_META" property="og:title" content="${o}">
