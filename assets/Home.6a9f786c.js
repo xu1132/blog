@@ -24,13 +24,14 @@ import {
 } from "./index.ab2de2c5.js";
 
 // 导入Logo图片
+// var T = "./assets/logo.png";
 var T = "./assets/logo.png";
 
 // 博客标题组件
 const U = {};
 const F = { class: "text-center my-5" };
 const G = i("p", { class: "display-3" }, " ", -1);
-const H = i("img", { alt: "Vue logo", src: T }, null, -1);
+const H = i("img", {style:"", alt: "Vue logo", src: T }, null, -1);
 const q = [G, H];
 
 // 标题组件渲染函数
