@@ -1,5 +1,13 @@
 [
     {
+        "id":"chapter05",
+        "section": "散文",
+        "date":"June 24, 2025",
+        "title":"JavaScript数组转树：arrayToTree详解与实践",
+        "description":"在处理复杂数据结构时，树形结构因其清晰层级和直观展示而备受青睐。在JavaScript开发中，我们经常需要将扁平的数组转换为树形结构，以更好地组织和展示数据。本文将深入探讨如何使用arrayToTree方法实现这一转换，并提供一个实用的实现方案。",
+        "url":"blog_store/posts/sanwen/chapter05.md"
+    },
+    {
         "id":"chapter04",
         "section": "散文",
         "date":"June 6, 2025",
