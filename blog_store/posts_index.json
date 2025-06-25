@@ -1,5 +1,13 @@
 [
     {
+        "id":"chapter06",
+        "section": "散文",
+        "date":"June 25, 2025",
+        "title":"JavaScript 单链表翻转：原理与实现",
+        "description":"在计算机科学中，链表是一种基础但非常重要的数据结构。链表翻转（Reverse Linked List）是一个经典的算法问题，常出现在技术面试和编程挑战中。本文将详细讲解如何用 JavaScript 实现单链表的翻转，并通过代码注释解释每一步的逻辑。",
+        "url":"blog_store/posts/sanwen/chapter06.md"
+    },
+    {
         "id":"chapter05",
         "section": "散文",
         "date":"June 24, 2025",
