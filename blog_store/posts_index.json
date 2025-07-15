@@ -1,5 +1,13 @@
 [
     {
+        "id":"chapter07",
+        "section": "散文",
+        "date":"July 15, 2025",
+        "title":"CORS浏览器同源策略与 Axios 跨域解决方案",
+        "description":"在现代Web应用开发中，跨域问题是一个常见的挑战。随着前后端分离架构的普及，前端应用通常需要向不同域的API服务器发送请求获取数据，而浏览器的同源策略会限制这种跨域请求。本报告将深入探讨浏览器的同源策略、CORS（跨域资源共享）机制以及如何使用Axios实现跨域请求的解决方案。",
+        "url":"blog_store/posts/sanwen/chapter07.md"
+    },
+    {
         "id":"chapter06",
         "section": "散文",
         "date":"June 25, 2025",
