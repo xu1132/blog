@@ -46,7 +46,7 @@ var myChart = echarts.init(document.getElementById('main'));
 ```
 ### 设置图表配置项
 使用`setOption`方法设置图表的配置项：
-```javascript
+```
 var option = {
     title: {
         text: 'ECharts 示例'
@@ -67,9 +67,29 @@ var option = {
 };
 myChart.setOption(option);
 ```
+
+`setOption` 方法有以下几种参数形式：
+
+```
+(option: Object, notMerge?: boolean, lazyUpdate?: boolean)
+// 或者
+(option: Object, opts?: {
+    notMerge?: boolean;
+    replaceMerge?: string | string[];
+    lazyUpdate?: boolean;
+    silent?: boolean;
+})
+```
+
+参数说明：
+- `notMerge`（可选）：是否不跟之前设置的 option 进行合并。默认为 false，即表示合并。合并的规则，详见组件合并模式。如果为 true，表示所有组件都会被删除，然后根据新 option 创建所有新组件。
+- `replaceMerge`（可选）：用户可以在这里指定一个或多个组件，如：xAxis, series，这些指定的组件会进行 "replaceMerge"。如果用户想删除部分组件，也可使用 "replaceMerge"。详见组件合并模式。
+- `lazyUpdate`（可选）：在设置完 option 后是否不立即更新图表，默认为 false，即同步立即更新。如果为 true，则会在下一个 animation frame 中，才更新图表。
+- `silent`（可选）：阻止调用 setOption 时抛出事件，默认为 false，即抛出事件。
+
 ### 更新数据
 使用`setOption`方法更新数据：
-```javascript
+```
 myChart.setOption({
     series: [{
         // 根据需要更新数据
@@ -82,7 +102,7 @@ myChart.setOption({
 #### 折线图
 折线图用于展示数据随时间或其他连续变量的变化趋势。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         name: '销量',
@@ -99,7 +119,7 @@ option = {
 #### 柱状图
 柱状图用于展示不同类别数据的数量或比例。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         name: '销量',
@@ -116,7 +136,7 @@ option = {
 #### 饼图
 饼图用于展示数据的构成比例。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         name: '访问来源',
@@ -140,7 +160,7 @@ option = {
 #### 散点图
 散点图用于展示两个变量之间的关系。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'scatter',
@@ -156,7 +176,7 @@ option = {
 #### 雷达图
 雷达图用于展示多个变量在多个维度上的表现。
 **配置示例**：
-```javascript
+```
 option = {
     radar: {
         indicator: [
@@ -185,7 +205,7 @@ option = {
 #### 仪表盘
 仪表盘用于展示单一数据的实时变化。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'gauge',
@@ -207,7 +227,7 @@ option = {
 #### 漏斗图
 漏斗图用于展示数据在转化过程中的流失情况。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'funnel',
@@ -229,7 +249,7 @@ option = {
 #### 树图
 树图用于展示层次结构数据。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'tree',
@@ -254,7 +274,7 @@ option = {
 #### 旭日图
 旭日图用于展示分层数据的占比关系。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'sunburst',
@@ -278,7 +298,7 @@ option = {
 #### 地图
 地图用于在地图上展示数据，支持中国地图、世界地图等。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'map',
@@ -300,7 +320,7 @@ option = {
 #### 热力图
 热力图用于展示数据在二维网格上的密度或热度。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'heatmap',
@@ -323,7 +343,7 @@ option = {
 #### 关系图
 关系图用于展示实体之间的关系。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'graph',
@@ -348,7 +368,7 @@ option = {
 #### 桑基图
 桑基图用于展示资源在不同环节之间的流动情况。
 **配置示例**：
-```javascript
+```
 option = {
     series: [{
         type: 'sankey',
@@ -374,7 +394,7 @@ option = {
 ### 标题
 标题用于展示图表的名称和副标题。
 **配置示例**：
-```javascript
+```
 title: {
     text: 'ECharts 示例',
     subtext: '副标题',
@@ -392,7 +412,7 @@ title: {
 ### 工具提示
 工具提示用于展示鼠标悬停在图表上时显示的数据信息。
 **配置示例**：
-```javascript
+```
 tooltip: {
     trigger: 'axis',
     formatter: '{a}<br/>{b}:{c}'
@@ -407,7 +427,7 @@ tooltip: {
 ### 图例
 图例用于展示图表中不同系列的标记、颜色和名称，可以通过点击控制哪些系列不显示。
 **配置示例**：
-```javascript
+```
 legend: {
     data: ['销量'],
     orient: 'horizontal',
@@ -426,7 +446,7 @@ legend: {
 ### 坐标轴
 坐标轴用于展示数据的范围和刻度。
 **配置示例**：
-```javascript
+```
 xAxis: {
     type: 'category',
     data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
@@ -448,7 +468,7 @@ yAxis: {
 ### 数据系列
 数据系列用于展示实际的数据，是图表的核心部分。
 **配置示例**：
-```javascript
+```
 series: [{
     name: '销量',
     type: 'bar',
@@ -470,7 +490,7 @@ series: [{
 ### 动画效果
 ECharts支持多种动画效果，可以增强图表的视觉效果。
 **配置示例**：
-```javascript
+```
 animation: true,
 animationDuration: 1000,
 animationEasing: 'cubicOut'
@@ -482,7 +502,7 @@ animationEasing: 'cubicOut'
 ### 工具栏
 工具栏提供了多种交互功能，如保存图表、数据视图、动态类型切换、数据区域缩放、重置等。
 **配置示例**：
-```javascript
+```
 toolbox: {
     show: true,
     feature: {
@@ -505,7 +525,7 @@ toolbox: {
 ### 数据区域缩放
 数据区域缩放用于缩放图表的数据视图。
 **配置示例**：
-```javascript
+```
 dataZoom: [{
     type: 'slider',
     xAxisIndex: 0,
@@ -521,7 +541,7 @@ dataZoom: [{
 ### 视觉映射
 视觉映射用于根据数据值对图表元素进行颜色、大小等视觉上的映射。
 **配置示例**：
-```javascript
+```
 visualMap: {
     show: true,
     min: 0,
@@ -543,7 +563,7 @@ visualMap: {
 ## ECharts的响应式设计
 ECharts支持响应式设计，能够自适应不同屏幕尺寸。
 **配置示例**：
-```javascript
+```
 window.addEventListener('resize', function () {
     myChart.resize();
 });
@@ -554,7 +574,7 @@ window.addEventListener('resize', function () {
 ## ECharts的国际化
 ECharts支持多种语言，可以通过设置`echarts.setOption`中的`lang`参数来实现国际化。
 **配置示例**：
-```javascript
+```
 echarts.setOption({
     lang: {
         'title': '图表',
