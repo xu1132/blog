@@ -4,7 +4,7 @@
         "section": "散文",
         "date":"March 11, 2026",
         "title":"Git 分支管理与 GitHub Pages 部署实战",
-        "description":"在现代 Web 开发中，Git 分支管理和自动化部署是每个开发者必备的技能。本文将分享我在实际项目中使用 Git 分支策略和 GitHub Pages 部署静态网站的经验。",
+        "description":"在现代 Web 开发中，Git 分支管理和自动化部署是每个开发者必备的技能。本文将分享在实际项目中使用 Git 分支策略和 GitHub Pages 部署静态网站的经验，涵盖分支管理必要性、分支策略设计、部署流程、常见问题解决方案及最佳实践。",
         "url":"blog_store/posts/sanwen/chapter09.md"
     },
     {
