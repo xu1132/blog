@@ -1,0 +1,41 @@
+name: Generate Posts Index
+
+on:
+  push:
+    branches:
+      - gh-pages
+    paths:
+      - 'blog_store/posts/**/*.md'
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Generate posts index
+        run: npx ts-node scripts/generate_index.ts
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add blog_store/posts_index.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update posts_index.json [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
