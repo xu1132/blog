@@ -1,5 +1,13 @@
 [
     {
+        "id":"chapter12",
+        "section": "散文",
+        "date":"March 12, 2026",
+        "title":"AI 编程助手实战：从 Copilot 到 Cursor 的深度评测",
+        "description":"2026 年的今天，AI 编程助手已成为开发者标配。本文深度评测 GitHub Copilot、Cursor、Claude Code、Windsurf 和 OpenClaw，对比代码生成、重构、调试能力，分析隐私安全和成本，给出个人/团队最佳实践建议。",
+        "url":"blog_store/posts/sanwen/chapter12.md"
+    },
+    {
         "id":"chapter11",
         "section": "散文",
         "date":"March 12, 2026",
