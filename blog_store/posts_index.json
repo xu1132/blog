@@ -1,5 +1,13 @@
 [
     {
+        "id":"chapter10",
+        "section": "散文",
+        "date":"March 12, 2026",
+        "title":"OpenClaw 部署教程：让你的 Mac 拥有 AI 助手",
+        "description":"OpenClaw 是一个开源的 AI 助手框架，它可以运行在你的 Mac 上，帮你完成各种任务：文件管理和整理、联网搜索和信息查询、通过飞书等平台与你交互、执行 shell 命令、操作 GitHub 等。本文详细介绍安装步骤、配置方法、常用命令和实际问题解决方案。",
+        "url":"blog_store/posts/sanwen/chapter10.md"
+    },
+    {
         "id":"chapter09",
         "section": "散文",
         "date":"March 11, 2026",
