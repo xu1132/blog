@@ -1,83 +1,91 @@
 [
     {
-        "id":"chapter12",
-        "section": "散文",
-        "date":"March 12, 2026",
-        "title":"AI 编程助手实战：从 Copilot 到 Cursor 的深度评测",
-        "description":"2026 年的今天，AI 编程助手已成为开发者标配。本文深度评测 GitHub Copilot、Cursor、Claude Code、Windsurf 和 OpenClaw，对比代码生成、重构、调试能力，分析隐私安全和成本，给出个人/团队最佳实践建议。",
-        "url":"blog_store/posts/sanwen/chapter12.md"
+        "id": "data-asset-analysis",
+        "section": "项目分析",
+        "date": "July 17, 2026",
+        "title": "数据资产管理系统操作流程与数据关联分析",
+        "description": "深入分析数据上报系统、上报审批系统、数据集管理系统、数据编目系统、数据可视化系统以及权限管理系统之间的操作流程与数据关联。",
+        "url": "blog_store/posts/project/data-asset-management-analysis.md"
     },
     {
-        "id":"chapter11",
+        "id": "chapter12",
         "section": "散文",
-        "date":"March 12, 2026",
-        "title":"2026 全栈开发技术路线指南：从入门到架构师",
-        "description":"全栈开发一直是技术行业的热门方向。2026 年的今天，技术栈更加成熟，工具链更加完善。本文提供清晰的技术路线图，涵盖前端（React/Vue/Svelte）、后端（Node.js/Go/Python）、数据库（PostgreSQL/MongoDB/Vector DB）、DevOps 等，附带 12 个月学习计划和面试准备指南。",
-        "url":"blog_store/posts/sanwen/chapter11.md"
+        "date": "March 12, 2026",
+        "title": "AI 编程助手实战：从 Copilot 到 Cursor 的深度评测",
+        "description": "2026 年的今天，AI 编程助手已成为开发者标配。本文深度评测 GitHub Copilot、Cursor、Claude Code、Windsurf 和 OpenClaw，对比代码生成、重构、调试能力，分析隐私安全和成本，给出个人/团队最佳实践建议。",
+        "url": "blog_store/posts/sanwen/chapter12.md"
     },
     {
-        "id":"chapter10",
+        "id": "chapter11",
         "section": "散文",
-        "date":"March 12, 2026",
-        "title":"OpenClaw 部署教程：让你的 Mac 拥有 AI 助手",
-        "description":"OpenClaw 是一个开源的 AI 助手框架，它可以运行在你的 Mac 上，帮你完成各种任务：文件管理和整理、联网搜索和信息查询、通过飞书等平台与你交互、执行 shell 命令、操作 GitHub 等。本文详细介绍安装步骤、配置方法、常用命令和实际问题解决方案。",
-        "url":"blog_store/posts/sanwen/chapter10.md"
+        "date": "March 12, 2026",
+        "title": "2026 全栈开发技术路线指南：从入门到架构师",
+        "description": "全栈开发一直是技术行业的热门方向。2026 年的今天，技术栈更加成熟，工具链更加完善。本文提供清晰的技术路线图，涵盖前端（React/Vue/Svelte）、后端（Node.js/Go/Python）、数据库（PostgreSQL/MongoDB/Vector DB）、DevOps 等，附带 12 个月学习计划和面试准备指南。",
+        "url": "blog_store/posts/sanwen/chapter11.md"
     },
     {
-        "id":"chapter09",
+        "id": "chapter10",
         "section": "散文",
-        "date":"March 11, 2026",
-        "title":"Git 分支管理与 GitHub Pages 部署实战",
-        "description":"在现代 Web 开发中，Git 分支管理和自动化部署是每个开发者必备的技能。本文将分享在实际项目中使用 Git 分支策略和 GitHub Pages 部署静态网站的经验，涵盖分支管理必要性、分支策略设计、部署流程、常见问题解决方案及最佳实践。",
-        "url":"blog_store/posts/sanwen/chapter09.md"
+        "date": "March 12, 2026",
+        "title": "OpenClaw 部署教程：让你的 Mac 拥有 AI 助手",
+        "description": "OpenClaw 是一个开源的 AI 助手框架，它可以运行在你的 Mac 上，帮你完成各种任务：文件管理和整理、联网搜索和信息查询、通过飞书等平台与你交互、执行 shell 命令、操作 GitHub 等。本文详细介绍安装步骤、配置方法、常用命令和实际问题解决方案。",
+        "url": "blog_store/posts/sanwen/chapter10.md"
     },
     {
-        "id":"chapter08",
+        "id": "chapter09",
         "section": "散文",
-        "date":"July 15, 2025",
-        "title":"echarts 图表绘制详解",
-        "description":"在当今数据驱动的时代，将复杂的数据转化为直观、易懂的视觉呈现变得至关重要。ECharts，作为一款功能强大且广受欢迎的 JavaScript 数据可视化图表库，正是实现这一目标的利器。它不仅能够帮助我们轻松地将数据转化为各种精美的图表，还能通过丰富的交互功能，让用户更深入地探索和理解数据背后的故事。无论是用于业务分析、科学报告还是数据新闻，ECharts 都能提供灵活且高效的解决方案。本文档旨在深入浅出地介绍 ECharts 的核心概念、常用图表类型、基本配置方法以及一些常见的使用技巧和问题解决思路，希望能为初学者和有经验的开发者提供一份全面而实用的参考指南。",
-        "url":"blog_store/posts/sanwen/chapter08.md"
+        "date": "March 11, 2026",
+        "title": "Git 分支管理与 GitHub Pages 部署实战",
+        "description": "在现代 Web 开发中，Git 分支管理和自动化部署是每个开发者必备的技能。本文将分享在实际项目中使用 Git 分支策略和 GitHub Pages 部署静态网站的经验，涵盖分支管理必要性、分支策略设计、部署流程、常见问题解决方案及最佳实践。",
+        "url": "blog_store/posts/sanwen/chapter09.md"
     },
     {
-        "id":"chapter07",
+        "id": "chapter08",
         "section": "散文",
-        "date":"July 15, 2025",
-        "title":"CORS 浏览器同源策略与 Axios 跨域解决方案",
-        "description":"在现代 Web 应用开发中，跨域问题是一个常见的挑战。随着前后端分离架构的普及，前端应用通常需要向不同域的 API 服务器发送请求获取数据，而浏览器的同源策略会限制这种跨域请求。本报告将深入探讨浏览器的同源策略、CORS（跨域资源共享）机制以及如何使用 Axios 实现跨域请求的解决方案。",
-        "url":"blog_store/posts/sanwen/chapter07.md"
+        "date": "July 15, 2025",
+        "title": "echarts 图表绘制详解",
+        "description": "在当今数据驱动的时代，将复杂的数据转化为直观、易懂的视觉呈现变得至关重要。ECharts，作为一款功能强大且广受欢迎的 JavaScript 数据可视化图表库，正是实现这一目标的利器。它不仅能够帮助我们轻松地将数据转化为各种精美的图表，还能通过丰富的交互功能，让用户更深入地探索和理解数据背后的故事。无论是用于业务分析、科学报告还是数据新闻，ECharts 都能提供灵活且高效的解决方案。本文档旨在深入浅出地介绍 ECharts 的核心概念、常用图表类型、基本配置方法以及一些常见的使用技巧和问题解决思路，希望能为初学者和有经验的开发者提供一份全面而实用的参考指南。",
+        "url": "blog_store/posts/sanwen/chapter08.md"
     },
     {
-        "id":"chapter06",
+        "id": "chapter07",
         "section": "散文",
-        "date":"June 25, 2025",
-        "title":"JavaScript 单链表翻转：原理与实现",
-        "description":"在计算机科学中，链表是一种基础但非常重要的数据结构。链表翻转（Reverse Linked List）是一个经典的算法问题，常出现在技术面试和编程挑战中。本文将详细讲解如何用 JavaScript 实现单链表的翻转，并通过代码注释解释每一步的逻辑。",
-        "url":"blog_store/posts/sanwen/chapter06.md"
+        "date": "July 15, 2025",
+        "title": "CORS 浏览器同源策略与 Axios 跨域解决方案",
+        "description": "在现代 Web 应用开发中，跨域问题是一个常见的挑战。随着前后端分离架构的普及，前端应用通常需要向不同域的 API 服务器发送请求获取数据，而浏览器的同源策略会限制这种跨域请求。本报告将深入探讨浏览器的同源策略、CORS（跨域资源共享）机制以及如何使用 Axios 实现跨域请求的解决方案。",
+        "url": "blog_store/posts/sanwen/chapter07.md"
     },
     {
-        "id":"chapter05",
+        "id": "chapter06",
         "section": "散文",
-        "date":"June 24, 2025",
-        "title":"JavaScript 数组转树：arrayToTree 详解与实践",
-        "description":"在处理复杂数据结构时，树形结构因其清晰层级和直观展示而备受青睐。在 JavaScript 开发中，我们经常需要将扁平的数组转换为树形结构，以更好地组织和展示数据。本文将深入探讨如何使用 arrayToTree 方法实现这一转换，并提供一个实用的实现方案。",
-        "url":"blog_store/posts/sanwen/chapter05.md"
+        "date": "June 25, 2025",
+        "title": "JavaScript 单链表翻转：原理与实现",
+        "description": "在计算机科学中，链表是一种基础但非常重要的数据结构。链表翻转（Reverse Linked List）是一个经典的算法问题，常出现在技术面试和编程挑战中。本文将详细讲解如何用 JavaScript 实现单链表的翻转，并通过代码注释解释每一步的逻辑。",
+        "url": "blog_store/posts/sanwen/chapter06.md"
     },
     {
-        "id":"chapter04",
+        "id": "chapter05",
         "section": "散文",
-        "date":"June 6, 2025",
-        "title":"ES6：重塑现代 JavaScript 的革命性升级",
-        "description":"ES6 的发布标志着 JavaScript 从一个简单的脚本语言，转变为一个功能强大的现代编程语言。它引入了诸如模块化、箭头函数、解构赋值、模板字符串、Promise 等重要特性，大大提升了开发效率和代码质量。这些新特性不仅简化了代码的编写，还使得 JavaScript 更加接近其他现代编程语言，如 Python、Java 等，使得跨语言开发更加流畅。",
-        "url":"blog_store/posts/sanwen/chapter04.md"
+        "date": "June 24, 2025",
+        "title": "JavaScript 数组转树：arrayToTree 详解与实践",
+        "description": "在处理复杂数据结构时，树形结构因其清晰层级和直观展示而备受青睐。在 JavaScript 开发中，我们经常需要将扁平的数组转换为树形结构，以更好地组织和展示数据。本文将深入探讨如何使用 arrayToTree 方法实现这一转换，并提供一个实用的实现方案。",
+        "url": "blog_store/posts/sanwen/chapter05.md"
     },
     {
-        "id":"chapter03",
+        "id": "chapter04",
         "section": "散文",
-        "date":"June 6, 2025",
-        "title":"浏览器渲染原理：从代码到视觉的旅程",
-        "description":"在我们日常的网络浏览体验中，浏览器将各种代码（HTML、CSS、JavaScript 等）转化为我们能够在屏幕上看到的精美网页。这一看似简单的转换过程实际上涉及极其复杂的技术和算法。浏览器渲染作为网页展示的核心机制，将抽象的代码转化为具体的视觉元素，是网页开发和用户体验的关键环节。",
-        "url":"blog_store/posts/sanwen/chapter03.md"
+        "date": "June 6, 2025",
+        "title": "ES6：重塑现代 JavaScript 的革命性升级",
+        "description": "ES6 的发布标志着 JavaScript 从一个简单的脚本语言，转变为一个功能强大的现代编程语言。它引入了诸如模块化、箭头函数、解构赋值、模板字符串、Promise 等重要特性，大大提升了开发效率和代码质量。这些新特性不仅简化了代码的编写，还使得 JavaScript 更加接近其他现代编程语言，如 Python、Java 等，使得跨语言开发更加流畅。",
+        "url": "blog_store/posts/sanwen/chapter04.md"
+    },
+    {
+        "id": "chapter03",
+        "section": "散文",
+        "date": "June 6, 2025",
+        "title": "浏览器渲染原理：从代码到视觉的旅程",
+        "description": "在我们日常的网络浏览体验中，浏览器将各种代码（HTML、CSS、JavaScript 等）转化为我们能够在屏幕上看到的精美网页。这一看似简单的转换过程实际上涉及极其复杂的技术和算法。浏览器渲染作为网页展示的核心机制，将抽象的代码转化为具体的视觉元素，是网页开发和用户体验的关键环节。",
+        "url": "blog_store/posts/sanwen/chapter03.md"
     },
     {
         "id": "chapter02",
@@ -88,11 +96,11 @@
         "url": "blog_store/posts/sanwen/chapter02.md"
     },
     {
-        "id":"chapter01",
+        "id": "chapter01",
         "section": "散文",
-        "date":"June 5, 2025",
-        "title":"从技术探索到生活感悟：我的本周思考集锦",
-        "description":"最近在折腾新的开发工具时，突然发现技术与生活竟有奇妙的共通点 —— 就像 Markdown 语法的简洁与 HTML 的灵活搭配，生活也需要在规律中保留即兴发挥的空间。今天想和大家聊聊这段时间的技术小发现，以及那些藏在代码缝隙里的生活启示。这不仅仅是关于工具的使用，更是关于一种思维方式的碰撞与融合。",
-        "url":"blog_store/posts/sanwen/chapter01.md"
+        "date": "June 5, 2025",
+        "title": "从技术探索到生活感悟：我的本周思考集锦",
+        "description": "最近在折腾新的开发工具时，突然发现技术与生活竟有奇妙的共通点 —— 就像 Markdown 语法的简洁与 HTML 的灵活搭配，生活也需要在规律中保留即兴发挥的空间。今天想和大家聊聊这段时间的技术小发现，以及那些藏在代码缝隙里的生活启示。这不仅仅是关于工具的使用，更是关于一种思维方式的碰撞与融合。",
+        "url": "blog_store/posts/sanwen/chapter01.md"
     }
 ]
